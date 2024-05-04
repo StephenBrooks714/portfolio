@@ -25,7 +25,7 @@
             <li class="nav-item">
                 <img src="./assets/logo.png" height="40" width="80" alt="logo">
             </li>
-            <li class="search-item">
+            <li class="search-item" id="search1">
                 <form action="/search">
                     <input type="search" class="form-search" placeholder="Search">
                 </form>
@@ -37,25 +37,30 @@
                 <a type="button" class="dropbtn"><i class="fas fa-bars"></i></a>
                 <div class="show">
                     <div class="dropdown-content">
-                        <a href="">Home</a>
+                        <a href="#">Home</a>
                         <a href="">About</a>
-                        <a href="">Contact</a>
-                        <a href="">Projects</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#projects">Projects</a>
                         <a href="">Services</a>
+                        <div class="search-dropdown" id="search2">
+                            <form action="/search">
+                                <input type="search" class="search" placeholder="Search">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
                 <a href="" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Projects</a>
+                <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
                 <a href="" class="nav-link">Services</a>
@@ -136,7 +141,7 @@
                      class="img-fluid" alt="Section Title">
             </div>
         </div>
-        <div class="row mb-7">
+        <div class="row mb-7" id="projects">
             <div class="col-lg-12">
                 <div class="card-container">
                     <p class="display-4">The Work That I Do</p>
@@ -239,7 +244,7 @@
                 </div>
             </div>
         </div>
-        <section class="mb-7 contact-row flex-row-reverse">
+        <section class="mb-7 contact-row flex-row-reverse" id="contact">
             <div class="col-5 mb-4">
                 <h5>Contact Me To Get Started</h5>
                 <p>
