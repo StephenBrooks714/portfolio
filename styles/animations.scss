@@ -69,28 +69,17 @@ div#small-business {
     width: 100%;
     justify-content: center;
 
+    @media screen and (max-width: 950px) {
+      flex-direction: column;
+    }
+
     .col-lg-4 {
       display: flex;
       justify-content: center;
       width: 33%;
-    }
-    @media screen and (max-width: 992px) {
-      .col-lg-4 {
+
+      @media screen and (max-width: 950px) {
         width: 100%;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        .img-fluid {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          margin-bottom: 20px;
-          margin-top: 20px;
-          border-radius: 1rem;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
       }
     }
     .p-3 {
@@ -120,18 +109,21 @@ div#small-business {
 .tab-content {
   display: none;
   padding: 20px;
-  .img-container {
+  .img-container2 {
     display: flex;
     padding: 10px;
     width: 100%;
     justify-content: center;
 
+    @media screen and (max-width: 862px) {
+      flex-direction: column;
+    }
     .col-lg-4 {
       display: flex;
       justify-content: center;
       width: 33%;
     }
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 950px) {
       .col-lg-4 {
         width: 100%;
         padding: 10px;

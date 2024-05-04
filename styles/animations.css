@@ -66,28 +66,19 @@ div#small-business {
   width: 100%;
   justify-content: center;
 }
+@media screen and (max-width: 950px) {
+  .tab-text .img-container {
+    flex-direction: column;
+  }
+}
 .tab-text .img-container .col-lg-4 {
   display: flex;
   justify-content: center;
   width: 33%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 950px) {
   .tab-text .img-container .col-lg-4 {
     width: 100%;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  .tab-text .img-container .col-lg-4 .img-fluid {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 .tab-text .img-container .p-3 {
@@ -116,19 +107,24 @@ div#small-business {
   display: none;
   padding: 20px;
 }
-.tab-content .img-container {
+.tab-content .img-container2 {
   display: flex;
   padding: 10px;
   width: 100%;
   justify-content: center;
 }
-.tab-content .img-container .col-lg-4 {
+@media screen and (max-width: 862px) {
+  .tab-content .img-container2 {
+    flex-direction: column;
+  }
+}
+.tab-content .img-container2 .col-lg-4 {
   display: flex;
   justify-content: center;
   width: 33%;
 }
-@media screen and (max-width: 992px) {
-  .tab-content .img-container .col-lg-4 {
+@media screen and (max-width: 950px) {
+  .tab-content .img-container2 .col-lg-4 {
     width: 100%;
     padding: 10px;
     justify-content: center;
@@ -136,7 +132,7 @@ div#small-business {
     display: flex;
     flex-direction: row;
   }
-  .tab-content .img-container .col-lg-4 .img-fluid {
+  .tab-content .img-container2 .col-lg-4 .img-fluid {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -146,25 +142,25 @@ div#small-business {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
-.tab-content .img-container .p-3 {
+.tab-content .img-container2 .p-3 {
   padding: 1rem !important;
 }
-.tab-content .img-container a.hover {
+.tab-content .img-container2 a.hover {
   display: block;
   transition: ease-in-out 0.3s;
 }
-.tab-content .img-container a.hover:hover {
+.tab-content .img-container2 a.hover:hover {
   background-color: #f1f1f1;
   transform: scale(1.1);
 }
-.tab-content .img-container .img-fluid {
+.tab-content .img-container2 .img-fluid {
   max-width: 100%;
   height: auto;
 }
-.tab-content .img-container .rounded {
+.tab-content .img-container2 .rounded {
   border-radius: 0.25rem !important;
 }
-.tab-content .img-container .shadow-lg {
+.tab-content .img-container2 .shadow-lg {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .tab-content p {

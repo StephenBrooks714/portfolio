@@ -1,6 +1,7 @@
 section.contact-row {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -14,7 +15,6 @@ section.contact-row .flex-row-reverse {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  flex-direction: row-reverse;
 }
 @media screen and (max-width: 862px) {
   section.contact-row {
@@ -28,23 +28,21 @@ section.contact-row .col-7 {
 }
 @media screen and (max-width: 862px) {
   section.contact-row .col-7 {
-    width: 320px;
+    width: 100%;
   }
 }
 section.contact-row form {
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
+  max-width: 800px;
+  justify-content: center;
 }
 @media screen and (max-width: 862px) {
   section.contact-row form {
-    max-width: 100%;
-    width: 320px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #f8f9fa;
+    flex-direction: column;
+    width: 100%;
   }
 }
 section.contact-row form .form-label {
