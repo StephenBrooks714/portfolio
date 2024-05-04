@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8791fcf073.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/forms.css">
+    <script src="./scripts/index.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="nav-items-left">
+            <li class="nav-item">
+                <img src="./assets/logo.png" height="40" width="80" alt="logo">
+            </li>
+            <li class="search-item">
+                <form action="/search">
+                    <input type="search" class="form-search" placeholder="Search">
+                </form>
+                <button class="search-btn">search</button>
+            </li>
+        </ul>
+        <ul class="nav-items-right">
+            <li class="dropdown-menu">
+                <a type="button" class="dropbtn"><i class="fas fa-bars"></i></a>
+                <div class="show">
+                    <div class="dropdown-content">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                        <a href="">Projects</a>
+                        <a href="">Services</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Services</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <div class="container">
+            <div class="row" style="height: 80vh;">
+                <div class="col-lg-10">
+                    <h1 class="display-2">Express Web Designs</h1>
+                    <h2>Web Development with Stephen Brooks</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="container my-5 py-5">
+        <div class="row text-center">
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="fa-brands fa-jira"></i>
+                    </div>
+                    <h3>Project Planning</h3>
+                    <p>
+                        The stepping stones to ensure that your project is a success story.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <h3>UX / UI Design</h3>
+                    <p>
+                        A visual tool for creating beautiful and intuitive user experiences.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Web development is the process of creating and maintaining websites.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <h3>Project Management</h3>
+                    <p>
+                        Project management is the process of managing projects from the app.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <h4 class="display-4">Section Title</h4>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consectetur distinctio dolore illo nihil, pariatur quae quia quibusdam ratione recusandae repudiandae, saepe sequi sit temporibus unde? Consequuntur debitis deleniti iure.
+                </p>
+                <a href="#!" class="btn btn-primary">Learn More</a><a href="#!" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/developers-developing-website-3839581-3202975.png"
+                     class="img-fluid" alt="Section Title">
+            </div>
+        </div>
+        <div class="row mb-7">
+            <div class="col-lg-12">
+                <div class="card-container">
+                    <p class="display-4">The Work That I Do</p>
+                    <p class="lead mb-4">
+                        All projects are built with SCSS and JavaScript. Using the flexbox layout, I create responsive designs that fit any device.
+                    </p>
+                    <nav class="tab-links">
+                        <a href="#non-profits" name="non-profits" onclick="showTab(event, 'non-profits')">Non Profits</a>
+                        <a href="#professional" name="professional" onclick="showTab(event, 'professional')">Professionals</a>
+                        <a href="#small-business" name="small-business" onclick="showTab(event, 'small-business')">Small Business</a>
+                    </nav>
+                </div>
+                <div class="tab-text">
+                    <p>
+                        <span class="title">Projects Developed</span> - Building with Scss & JavaScript, I design responsive apps that fit any device. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque eligendi facilis id, illum ipsa maxime minima minus nam nesciunt.
+                    </p>
+                    <div class="img-container">
+                        <div class="col-lg-4 p-3">
+                            <img src="./assets/google-project.png" class="img-fluid rounded shadow-lg" alt="dummy image">
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <img src="./assets/photo-gallery.png" class="img-fluid rounded shadow-lg" alt="dummy image">
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <img src="./assets/travel-website.png" class="img-fluid rounded shadow-lg" alt="dummy image">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="non-profits">
+                    <p>
+                        <span class="title">Non Profits</span> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non omnis perferendis quis repellendus sapiente sed totam? Blanditiis corporis dolor, ea, earum, ipsam iste laboriosam necessitatibus officiis reiciendis rem sunt!
+                    </p>
+                    <div class="img-container">
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="professional">
+                    <p>
+                        <span class="title">Professionals</span> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non omnis perferendis quis repellendus sapiente sed totam? Blanditiis corporis dolor, ea, earum, ipsam iste laboriosam necessitatibus officiis reiciendis rem sunt!
+                    </p>
+                    <div class="img-container">
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="small-business">
+                    <p>
+                        <span class="title">Small-Businesses</span> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non omnis perferendis quis repellendus sapiente sed totam? Blanditiis corporis dolor, ea, earum, ipsam iste laboriosam necessitatibus officiis reiciendis rem sunt!
+                    </p>
+                    <div class="img-container">
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <a class="hover" href="">
+                                <img src="https://placehold.co/600x400" class="img-fluid rounded shadow-lg" alt="dummy image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="mb-7 contact-row flex-row-reverse">
+            <div class="col-5 mb-4">
+                <h5>Contact Me To Get Started</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloremque eos facere harum nisi pariatur quaerat, repellat vero. Adipisci atque blanditiis distinctio fugit magnam natus obcaecati quis repellat sit velit.
+                </p>
+                <hr>
+                <phone class="lead">555-555-5555</phone>
+                <address class="lead">
+                    1515 Main St, Seattle, WA 98101
+                </address>
+            </div>
+            <div class="col-7 mb-4">
+                <form action="">
+                    <label for="name" class="form-label">Name: <input type="text" class="form-control" id="name"></label>
+                    <label for="email" class="form-label">Email: <input type="email" class="form-control" id="email"></label>
+                    <label for="text" class="form-label">Your Message: <textarea name="text" id="text" class="form-control" rows="7"></textarea></label>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </section>
+    </section>
+</main>
+</body>
+</html>

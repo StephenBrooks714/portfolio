@@ -1,0 +1,104 @@
+section.contact-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+section.contact-row .flex-row-reverse {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 862px) {
+  section.contact-row {
+    flex-direction: column;
+  }
+}
+section.contact-row .col-7 {
+  flex: 1;
+  max-width: 60%;
+  padding: 12px;
+}
+@media screen and (max-width: 862px) {
+  section.contact-row .col-7 {
+    width: 320px;
+  }
+}
+section.contact-row form {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 862px) {
+  section.contact-row form {
+    max-width: 100%;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+  }
+}
+section.contact-row form .form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+section.contact-row form .form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+section.contact-row form .form-control:focus {
+  outline: none;
+}
+section.contact-row form button.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+section.contact-row form .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+section.contact-row form .btn-primary:hover {
+  background-color: #0069d9;
+}
+section.contact-row .col-5 {
+  flex: 1;
+  max-width: 40%;
+  text-align: start;
+  padding: 12px;
+}
+@media screen and (max-width: 862px) {
+  section.contact-row .col-5 {
+    max-width: 100%;
+  }
+}
+section.contact-row .col-5 h5 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+section.contact-row .col-5 p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=forms.css.map */
