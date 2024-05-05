@@ -345,6 +345,18 @@ main {
 .lead {
   font-size: 1.25rem;
 }
+.text-white {
+  color: #f1f1f1!important;
+}
+.rounded {
+  border-radius: 0.25rem!important;
+}
+.circle {
+  border-radius: 50%!important;
+}
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
 .w-75 {
   width: 75%;
   margin: auto;
